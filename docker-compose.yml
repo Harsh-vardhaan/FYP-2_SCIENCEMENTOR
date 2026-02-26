@@ -1,0 +1,52 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
+    volumes:
+      # Mount application code for hot-reload during development
+      - ./backend:/app/backend
+      - ./frontend:/app/frontend
+    env_file:
+      - ./backend/.env
+    environment:
+      # Only override what's needed for Docker
+      - FLASK_DEBUG=true
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      - PORT=5001
+    # Use Flask dev server for hot-reload instead of gunicorn
+    command: python app.py
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://localhost:5001/health')",
+        ]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+
+  # Optional: Serve frontend via nginx for production-like testing
+  frontend:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html:ro
+    depends_on:
+      - backend
+
+  # Optional: Local Ollama for offline LLM
+  # Uncomment if you want to run Ollama in Docker
+  # ollama:
+  #   image: ollama/ollama
+  #   ports:
+  #     - "11434:11434"
+  #   volumes:
+  #     - ollama_data:/root/.ollama
+# volumes:
+#   ollama_data:

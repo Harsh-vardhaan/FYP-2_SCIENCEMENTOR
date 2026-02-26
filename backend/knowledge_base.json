@@ -1,0 +1,860 @@
+{
+  "topics": {
+    "cell_structure": {
+      "name": "Cell Structure and Organelles",
+      "malay_name": "Struktur Sel dan Organel",
+      "concepts": [
+        {
+          "term": "cell membrane",
+          "malay": "membran sel",
+          "definition": "A thin, flexible barrier that surrounds the cell and controls what enters and leaves. It is made of a phospholipid bilayer with embedded proteins.",
+          "function": "Controls the movement of substances in and out of the cell (selectively permeable)"
+        },
+        {
+          "term": "nucleus",
+          "malay": "nukleus",
+          "definition": "The control center of the cell containing genetic material (DNA). It is surrounded by a nuclear membrane with pores.",
+          "function": "Controls cell activities and contains hereditary information"
+        },
+        {
+          "term": "mitochondria",
+          "malay": "mitokondria",
+          "definition": "Bean-shaped organelles with a double membrane. The inner membrane is folded into cristae.",
+          "function": "Site of cellular respiration - produces ATP (energy) from glucose"
+        },
+        {
+          "term": "ribosomes",
+          "malay": "ribosom",
+          "definition": "Small, round organelles found free in cytoplasm or attached to rough endoplasmic reticulum.",
+          "function": "Site of protein synthesis - translates mRNA into proteins"
+        },
+        {
+          "term": "endoplasmic reticulum",
+          "malay": "retikulum endoplasma",
+          "definition": "A network of membranes throughout the cytoplasm. Rough ER has ribosomes attached; Smooth ER does not.",
+          "function": "Rough ER: transports proteins. Smooth ER: makes lipids and detoxifies substances"
+        },
+        {
+          "term": "Golgi apparatus",
+          "malay": "jasad Golgi",
+          "definition": "Stack of flattened membrane sacs that process and package proteins.",
+          "function": "Modifies, packages, and secretes proteins and lipids"
+        },
+        {
+          "term": "chloroplast",
+          "malay": "kloroplas",
+          "definition": "Found only in plant cells. Contains chlorophyll (green pigment) and has a double membrane with internal thylakoid membranes.",
+          "function": "Site of photosynthesis - converts light energy into glucose"
+        },
+        {
+          "term": "vacuole",
+          "malay": "vakuol",
+          "definition": "Large central vacuole in plant cells; small vacuoles in animal cells. Filled with cell sap.",
+          "function": "Stores water, nutrients, and waste. Maintains cell turgor pressure in plants"
+        },
+        {
+          "term": "cell wall",
+          "malay": "dinding sel",
+          "definition": "Found only in plant cells. Made of cellulose fibers, located outside the cell membrane.",
+          "function": "Provides structural support and protection. Maintains cell shape"
+        }
+      ]
+    },
+    "cell_division": {
+      "name": "Cell Division",
+      "malay_name": "Pembahagian Sel",
+      "concepts": [
+        {
+          "term": "mitosis",
+          "malay": "mitosis",
+          "definition": "Cell division that produces two identical daughter cells with the same number of chromosomes as the parent cell (diploid → diploid).",
+          "stages": [
+            "Prophase: chromosomes condense, nuclear membrane breaks down",
+            "Metaphase: chromosomes line up at the cell equator",
+            "Anaphase: sister chromatids separate and move to opposite poles",
+            "Telophase: nuclear membranes reform, chromosomes decondense"
+          ],
+          "purpose": "Growth, repair, and asexual reproduction"
+        },
+        {
+          "term": "meiosis",
+          "malay": "meiosis",
+          "definition": "Cell division that produces four non-identical daughter cells with half the number of chromosomes (diploid → haploid). Involves two divisions: Meiosis I and Meiosis II.",
+          "differences_from_mitosis": [
+            "Produces 4 cells instead of 2",
+            "Cells are haploid (n) not diploid (2n)",
+            "Daughter cells are genetically different due to crossing over",
+            "Only occurs in reproductive organs"
+          ],
+          "purpose": "Production of gametes (sex cells) for sexual reproduction"
+        },
+        {
+          "term": "chromosome",
+          "malay": "kromosom",
+          "definition": "Thread-like structures made of DNA and protein. Humans have 46 chromosomes (23 pairs).",
+          "function": "Carries genetic information from parent to offspring"
+        }
+      ]
+    },
+    "enzymes": {
+      "name": "Enzymes",
+      "malay_name": "Enzim",
+      "concepts": [
+        {
+          "term": "enzyme",
+          "malay": "enzim",
+          "definition": "Biological catalysts made of protein that speed up chemical reactions without being used up. They are specific to one substrate.",
+          "properties": [
+            "Specific - each enzyme only works on one type of substrate",
+            "Reusable - not changed by the reaction",
+            "Affected by temperature and pH",
+            "Work best at optimum conditions"
+          ]
+        },
+        {
+          "term": "lock and key model",
+          "malay": "model kunci dan mangga",
+          "definition": "The substrate fits exactly into the enzyme's active site like a key fits a lock. Only the correct substrate can bind.",
+          "explanation": "The enzyme (lock) has a specific shape active site. Only the matching substrate (key) can fit and react."
+        },
+        {
+          "term": "factors affecting enzyme activity",
+          "malay": "faktor yang mempengaruhi aktiviti enzim",
+          "factors": {
+            "temperature": "Enzyme activity increases with temperature up to the optimum (usually 37°C for human enzymes). Above this, enzymes denature.",
+            "pH": "Each enzyme has an optimum pH. Stomach enzymes work best at pH 2 (acidic), while small intestine enzymes work best at pH 8 (alkaline).",
+            "substrate_concentration": "More substrate means faster reaction until all active sites are occupied (saturation point)."
+          }
+        },
+        {
+          "term": "denaturation",
+          "malay": "penyahaslian",
+          "definition": "When an enzyme's shape is permanently changed due to extreme temperature or pH, making it non-functional.",
+          "explanation": "The active site changes shape and can no longer bind to the substrate"
+        }
+      ]
+    },
+    "photosynthesis": {
+      "name": "Photosynthesis",
+      "malay_name": "Fotosintesis",
+      "concepts": [
+        {
+          "term": "photosynthesis",
+          "malay": "fotosintesis",
+          "definition": "The process by which plants convert light energy into chemical energy (glucose) using carbon dioxide and water.",
+          "equation": "6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂",
+          "word_equation": "Carbon dioxide + Water + Light energy → Glucose + Oxygen"
+        },
+        {
+          "term": "chlorophyll",
+          "malay": "klorofil",
+          "definition": "Green pigment found in chloroplasts that absorbs light energy for photosynthesis.",
+          "function": "Absorbs red and blue light, reflects green light (why plants look green)"
+        },
+        {
+          "term": "light-dependent reactions",
+          "malay": "tindak balas bergantung cahaya",
+          "location": "Thylakoid membranes of chloroplast",
+          "process": "Light energy splits water molecules (photolysis) to produce oxygen, ATP, and hydrogen ions"
+        },
+        {
+          "term": "light-independent reactions (Calvin cycle)",
+          "malay": "tindak balas tidak bergantung cahaya",
+          "location": "Stroma of chloroplast",
+          "process": "Uses ATP and hydrogen from light reactions to convert CO₂ into glucose"
+        },
+        {
+          "term": "factors affecting photosynthesis",
+          "malay": "faktor yang mempengaruhi fotosintesis",
+          "factors": {
+            "light_intensity": "More light = faster photosynthesis (up to a limit)",
+            "carbon_dioxide": "More CO₂ = faster photosynthesis (up to a limit)",
+            "temperature": "Optimum around 25-35°C. Too hot denatures enzymes, too cold slows reactions"
+          }
+        }
+      ]
+    },
+    "respiration": {
+      "name": "Respiration",
+      "malay_name": "Respirasi",
+      "concepts": [
+        {
+          "term": "cellular respiration",
+          "malay": "respirasi sel",
+          "definition": "The process of breaking down glucose to release energy (ATP) for cellular activities.",
+          "equation": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP (energy)",
+          "word_equation": "Glucose + Oxygen → Carbon dioxide + Water + Energy"
+        },
+        {
+          "term": "aerobic respiration",
+          "malay": "respirasi aerob",
+          "definition": "Respiration that requires oxygen. Occurs in mitochondria.",
+          "products": "Produces 36-38 ATP per glucose molecule, carbon dioxide, and water",
+          "location": "Mainly in mitochondria"
+        },
+        {
+          "term": "anaerobic respiration",
+          "malay": "respirasi anaerob",
+          "definition": "Respiration without oxygen. Produces less energy than aerobic respiration.",
+          "in_humans": "Glucose → Lactic acid + 2 ATP (causes muscle fatigue and cramps)",
+          "in_yeast": "Glucose → Ethanol + Carbon dioxide + 2 ATP (fermentation, used in bread/alcohol)"
+        },
+        {
+          "term": "ATP",
+          "malay": "ATP",
+          "definition": "Adenosine triphosphate - the energy currency of cells. Stores and transfers energy for cellular processes."
+        }
+      ]
+    },
+    "diffusion_osmosis": {
+      "name": "Diffusion and Osmosis",
+      "malay_name": "Resapan dan Osmosis",
+      "concepts": [
+        {
+          "term": "diffusion",
+          "malay": "resapan",
+          "definition": "The movement of particles from a region of high concentration to a region of low concentration until evenly distributed.",
+          "examples": [
+            "Oxygen moving into cells",
+            "Carbon dioxide leaving cells",
+            "Perfume spreading in a room"
+          ],
+          "key_point": "Does not require energy (passive transport)"
+        },
+        {
+          "term": "osmosis",
+          "malay": "osmosis",
+          "definition": "The movement of water molecules from a region of high water concentration (dilute solution) to a region of low water concentration (concentrated solution) through a partially permeable membrane.",
+          "key_point": "Special type of diffusion involving only water through a membrane"
+        },
+        {
+          "term": "hypotonic solution",
+          "malay": "larutan hipotonik",
+          "definition": "A solution with lower solute concentration than inside the cell. Water moves INTO the cell.",
+          "effect_on_cells": "Animal cells swell and may burst (lysis). Plant cells become turgid."
+        },
+        {
+          "term": "hypertonic solution",
+          "malay": "larutan hipertonik",
+          "definition": "A solution with higher solute concentration than inside the cell. Water moves OUT of the cell.",
+          "effect_on_cells": "Animal cells shrink (crenation). Plant cells undergo plasmolysis."
+        },
+        {
+          "term": "isotonic solution",
+          "malay": "larutan isotonik",
+          "definition": "A solution with the same solute concentration as inside the cell. No net water movement.",
+          "effect_on_cells": "Cells remain the same size"
+        }
+      ]
+    },
+    "digestive_system": {
+      "name": "Digestive System",
+      "malay_name": "Sistem Pencernaan",
+      "concepts": [
+        {
+          "term": "digestion",
+          "malay": "pencernaan",
+          "definition": "The breakdown of large, insoluble food molecules into small, soluble molecules that can be absorbed.",
+          "types": [
+            "Mechanical digestion: physical breakdown (teeth, stomach churning)",
+            "Chemical digestion: enzyme breakdown of food"
+          ]
+        },
+        {
+          "term": "mouth",
+          "malay": "mulut",
+          "processes": [
+            "Teeth mechanically break down food",
+            "Salivary amylase breaks starch → maltose",
+            "Tongue mixes food with saliva"
+          ]
+        },
+        {
+          "term": "stomach",
+          "malay": "perut",
+          "processes": [
+            "Churning mixes food with gastric juice",
+            "Pepsin breaks proteins → peptides",
+            "Hydrochloric acid kills bacteria and provides pH 2 for pepsin"
+          ]
+        },
+        {
+          "term": "small intestine",
+          "malay": "usus kecil",
+          "processes": [
+            "Pancreatic enzymes (amylase, protease, lipase) complete digestion",
+            "Bile emulsifies fats",
+            "Villi absorb nutrients into blood"
+          ],
+          "villi_adaptations": "Thin wall, large surface area, rich blood supply for efficient absorption"
+        },
+        {
+          "term": "large intestine",
+          "malay": "usus besar",
+          "processes": [
+            "Absorbs water and minerals",
+            "Bacteria produce vitamin K",
+            "Forms and stores feces"
+          ]
+        },
+        {
+          "term": "key enzymes",
+          "enzymes": {
+            "amylase": "Starch → Maltose (mouth and small intestine)",
+            "protease/pepsin": "Proteins → Peptides/Amino acids (stomach and small intestine)",
+            "lipase": "Fats → Fatty acids + Glycerol (small intestine)"
+          }
+        }
+      ]
+    },
+    "circulatory_system": {
+      "name": "Circulatory System",
+      "malay_name": "Sistem Peredaran Darah",
+      "concepts": [
+        {
+          "term": "heart",
+          "malay": "jantung",
+          "structure": "Four chambers: right atrium, right ventricle, left atrium, left ventricle. Left side has thicker walls (pumps to whole body).",
+          "function": "Pumps blood around the body in a double circulatory system"
+        },
+        {
+          "term": "double circulation",
+          "malay": "peredaran darah berganda",
+          "definition": "Blood passes through the heart twice in one complete circuit.",
+          "circuits": [
+            "Pulmonary circulation: Heart → Lungs → Heart (picks up oxygen)",
+            "Systemic circulation: Heart → Body → Heart (delivers oxygen)"
+          ]
+        },
+        {
+          "term": "blood vessels",
+          "malay": "salur darah",
+          "types": {
+            "arteries": "Carry blood AWAY from heart. Thick walls, no valves, carry oxygenated blood (except pulmonary artery)",
+            "veins": "Carry blood TO heart. Thin walls, have valves, carry deoxygenated blood (except pulmonary vein)",
+            "capillaries": "Tiny vessels where exchange occurs. One cell thick for easy diffusion"
+          }
+        },
+        {
+          "term": "blood components",
+          "malay": "komponen darah",
+          "components": {
+            "red blood cells": "Contain hemoglobin to carry oxygen. No nucleus. Biconcave shape.",
+            "white blood cells": "Fight infection. Have nucleus. Types: phagocytes and lymphocytes.",
+            "platelets": "Cell fragments for blood clotting",
+            "plasma": "Liquid part that carries nutrients, hormones, carbon dioxide, and waste"
+          }
+        }
+      ]
+    },
+    "dna_genes": {
+      "name": "DNA and Genes",
+      "malay_name": "DNA dan Gen",
+      "concepts": [
+        {
+          "term": "DNA",
+          "malay": "DNA",
+          "definition": "Deoxyribonucleic acid - the molecule that carries genetic information. Has a double helix structure.",
+          "structure": "Made of nucleotides with sugar (deoxyribose), phosphate, and bases (A, T, G, C)",
+          "base_pairing": "Adenine pairs with Thymine (A-T), Guanine pairs with Cytosine (G-C)"
+        },
+        {
+          "term": "gene",
+          "malay": "gen",
+          "definition": "A section of DNA that codes for a specific protein or characteristic.",
+          "location": "Found on chromosomes in the nucleus"
+        },
+        {
+          "term": "DNA replication",
+          "malay": "replikasi DNA",
+          "definition": "The process of copying DNA before cell division.",
+          "steps": [
+            "DNA helix unwinds and separates (hydrogen bonds break)",
+            "Free nucleotides pair with complementary bases",
+            "Two identical DNA molecules formed"
+          ]
+        },
+        {
+          "term": "protein synthesis",
+          "malay": "sintesis protein",
+          "definition": "The process of making proteins using the genetic code in DNA.",
+          "steps": {
+            "transcription": "DNA code copied to mRNA in nucleus",
+            "translation": "mRNA read by ribosomes to assemble amino acids into protein"
+          }
+        },
+        {
+          "term": "mutation",
+          "malay": "mutasi",
+          "definition": "A change in the DNA sequence that may alter the protein produced.",
+          "causes": "Radiation, chemicals, or random errors during DNA replication"
+        }
+      ]
+    },
+    "nervous_system": {
+      "name": "Nervous System and Coordination",
+      "malay_name": "Sistem Saraf dan Koordinasi",
+      "level": "Form 5",
+      "concepts": [
+        {
+          "term": "neuron",
+          "malay": "neuron",
+          "definition": "Specialized cells that transmit nerve impulses. Made up of cell body, dendrites, and axon.",
+          "types": [
+            "Sensory neurons: carry impulses from receptors to CNS",
+            "Motor neurons: carry impulses from CNS to effectors",
+            "Relay neurons: connect sensory and motor neurons in CNS"
+          ]
+        },
+        {
+          "term": "synapse",
+          "malay": "sinaps",
+          "definition": "The junction between two neurons where neurotransmitters are released to transmit signals.",
+          "process": "Action potential arrives → neurotransmitter released → binds to receptors → new impulse generated"
+        },
+        {
+          "term": "reflex arc",
+          "malay": "arka refleks",
+          "definition": "The pathway of nerve impulses in a reflex action: Stimulus → Receptor → Sensory neuron → Relay neuron → Motor neuron → Effector → Response",
+          "example": "Touching a hot surface causes immediate hand withdrawal"
+        },
+        {
+          "term": "central nervous system",
+          "malay": "sistem saraf pusat",
+          "definition": "Consists of the brain and spinal cord. Processes information and coordinates responses.",
+          "brain_parts": [
+            "Cerebrum: thinking, memory, voluntary actions",
+            "Cerebellum: balance, coordination",
+            "Medulla oblongata: involuntary actions (heartbeat, breathing)"
+          ]
+        }
+      ]
+    },
+    "endocrine_system": {
+      "name": "Hormones and Endocrine System",
+      "malay_name": "Hormon dan Sistem Endokrin",
+      "level": "Form 5",
+      "concepts": [
+        {
+          "term": "hormone",
+          "malay": "hormon",
+          "definition": "Chemical messengers produced by endocrine glands, transported in blood to target organs.",
+          "properties": [
+            "Specific to target cells",
+            "Work slowly but have long-lasting effects",
+            "Required in small amounts"
+          ]
+        },
+        {
+          "term": "insulin",
+          "malay": "insulin",
+          "definition": "Hormone produced by pancreas that lowers blood glucose levels.",
+          "mechanism": "Stimulates cells to take up glucose; converts glucose to glycogen for storage in liver"
+        },
+        {
+          "term": "glucagon",
+          "malay": "glukagon",
+          "definition": "Hormone produced by pancreas that raises blood glucose levels.",
+          "mechanism": "Converts glycogen back to glucose in liver when blood sugar is low"
+        },
+        {
+          "term": "adrenaline",
+          "malay": "adrenalin",
+          "definition": "Fight-or-flight hormone produced by adrenal glands in response to stress.",
+          "effects": [
+            "Increases heart rate",
+            "Dilates pupils",
+            "Increases blood flow to muscles",
+            "Releases glucose from liver"
+          ]
+        },
+        {
+          "term": "feedback mechanisms",
+          "malay": "mekanisme maklum balas",
+          "definition": "Negative feedback maintains homeostasis by reversing changes. Example: high blood glucose triggers insulin release, which lowers glucose, which stops insulin release."
+        }
+      ]
+    },
+    "reproduction": {
+      "name": "Reproduction and Development",
+      "malay_name": "Pembiakan dan Perkembangan",
+      "level": "Form 5",
+      "concepts": [
+        {
+          "term": "male reproductive system",
+          "malay": "sistem pembiakan lelaki",
+          "organs": [
+            "Testes: produce sperm and testosterone",
+            "Epididymis: stores and matures sperm",
+            "Vas deferens: transports sperm",
+            "Prostate gland: produces seminal fluid"
+          ]
+        },
+        {
+          "term": "female reproductive system",
+          "malay": "sistem pembiakan perempuan",
+          "organs": [
+            "Ovaries: produce eggs and hormones (estrogen, progesterone)",
+            "Fallopian tubes: site of fertilization",
+            "Uterus: where fetus develops",
+            "Cervix: opening to uterus"
+          ]
+        },
+        {
+          "term": "menstrual cycle",
+          "malay": "kitaran haid",
+          "definition": "28-day cycle controlled by hormones FSH, LH, estrogen, and progesterone.",
+          "phases": [
+            "Days 1-5: Menstruation",
+            "Days 6-14: Follicular phase (egg matures)",
+            "Day 14: Ovulation",
+            "Days 15-28: Luteal phase (uterus lining thickens)"
+          ]
+        },
+        {
+          "term": "fertilization",
+          "malay": "persenyawaan",
+          "definition": "Fusion of sperm and egg nuclei to form a zygote with 46 chromosomes.",
+          "location": "Fallopian tube"
+        },
+        {
+          "term": "embryonic development",
+          "malay": "perkembangan embrio",
+          "stages": [
+            "Zygote → Morula → Blastocyst → Implantation → Embryo → Fetus"
+          ],
+          "placenta_functions": [
+            "Exchange of nutrients and waste",
+            "Produces hormones",
+            "Barrier against some pathogens"
+          ]
+        }
+      ]
+    },
+    "ecology": {
+      "name": "Ecology and Ecosystems",
+      "malay_name": "Ekologi dan Ekosistem",
+      "level": "Form 5 / University",
+      "concepts": [
+        {
+          "term": "ecosystem",
+          "malay": "ekosistem",
+          "definition": "A community of living organisms interacting with each other and their physical environment.",
+          "components": [
+            "Biotic: living things (producers, consumers, decomposers)",
+            "Abiotic: non-living (temperature, water, light, soil)"
+          ]
+        },
+        {
+          "term": "food chain",
+          "malay": "rantai makanan",
+          "definition": "Linear pathway showing transfer of energy: Producer → Primary consumer → Secondary consumer → Tertiary consumer",
+          "energy_flow": "Only 10% of energy transfers to next trophic level; rest lost as heat"
+        },
+        {
+          "term": "food web",
+          "malay": "siratan makanan",
+          "definition": "Interconnected food chains showing multiple feeding relationships in an ecosystem."
+        },
+        {
+          "term": "carbon cycle",
+          "malay": "kitaran karbon",
+          "definition": "Movement of carbon through atmosphere, organisms, and Earth.",
+          "processes": [
+            "Photosynthesis: removes CO₂ from atmosphere",
+            "Respiration: releases CO₂",
+            "Combustion: releases stored carbon",
+            "Decomposition: releases carbon from dead organisms"
+          ]
+        },
+        {
+          "term": "nitrogen cycle",
+          "malay": "kitaran nitrogen",
+          "definition": "Conversion of nitrogen between different forms in nature.",
+          "processes": [
+            "Nitrogen fixation: N₂ → ammonia (by bacteria)",
+            "Nitrification: ammonia → nitrates",
+            "Denitrification: nitrates → N₂"
+          ]
+        },
+        {
+          "term": "biodiversity",
+          "malay": "biodiversiti",
+          "definition": "The variety of life in an ecosystem. Includes species diversity, genetic diversity, and ecosystem diversity.",
+          "threats": [
+            "Habitat destruction",
+            "Pollution",
+            "Climate change",
+            "Overexploitation"
+          ]
+        }
+      ]
+    },
+    "evolution": {
+      "name": "Evolution and Natural Selection",
+      "malay_name": "Evolusi dan Pemilihan Semula Jadi",
+      "level": "University",
+      "concepts": [
+        {
+          "term": "natural selection",
+          "malay": "pemilihan semula jadi",
+          "definition": "The process by which organisms with favorable traits survive and reproduce more successfully.",
+          "steps": [
+            "Variation exists in population",
+            "Struggle for survival (limited resources)",
+            "Survival of the fittest",
+            "Reproduction and inheritance of favorable traits"
+          ]
+        },
+        {
+          "term": "adaptation",
+          "malay": "adaptasi",
+          "definition": "A trait that increases an organism's fitness in its environment.",
+          "types": [
+            "Structural: physical features (e.g., thick fur)",
+            "Behavioral: actions (e.g., migration)",
+            "Physiological: body processes (e.g., producing venom)"
+          ]
+        },
+        {
+          "term": "speciation",
+          "malay": "spesiasi",
+          "definition": "The formation of new species through reproductive isolation and genetic divergence.",
+          "types": [
+            "Allopatric: geographic isolation",
+            "Sympatric: reproductive isolation without geographic barrier"
+          ]
+        },
+        {
+          "term": "evidence for evolution",
+          "malay": "bukti evolusi",
+          "evidence": [
+            "Fossil record",
+            "Comparative anatomy (homologous structures)",
+            "Molecular biology (DNA similarities)",
+            "Biogeography",
+            "Vestigial structures"
+          ]
+        }
+      ]
+    },
+    "biotechnology": {
+      "name": "Molecular Biology and Biotechnology",
+      "malay_name": "Biologi Molekul dan Bioteknologi",
+      "level": "University",
+      "concepts": [
+        {
+          "term": "genetic engineering",
+          "malay": "kejuruteraan genetik",
+          "definition": "The manipulation of an organism's DNA to introduce new traits.",
+          "steps": [
+            "Identify target gene",
+            "Cut gene using restriction enzymes",
+            "Insert into vector (plasmid)",
+            "Transform host organism",
+            "Select and grow transformed cells"
+          ]
+        },
+        {
+          "term": "PCR (Polymerase Chain Reaction)",
+          "malay": "tindak balas rantai polimerase",
+          "definition": "A technique to amplify (make millions of copies of) a specific DNA sequence.",
+          "steps": [
+            "Denaturation: heat separates DNA strands",
+            "Annealing: primers bind to target",
+            "Extension: DNA polymerase synthesizes new strands"
+          ]
+        },
+        {
+          "term": "gel electrophoresis",
+          "malay": "elektroforesis gel",
+          "definition": "A technique to separate DNA fragments by size using an electric current through a gel.",
+          "application": "DNA fingerprinting, paternity testing, forensics"
+        },
+        {
+          "term": "CRISPR-Cas9",
+          "malay": "CRISPR-Cas9",
+          "definition": "A revolutionary gene-editing tool that allows precise modification of DNA sequences.",
+          "applications": [
+            "Treating genetic diseases",
+            "Creating disease-resistant crops",
+            "Research on gene function"
+          ]
+        },
+        {
+          "term": "cloning",
+          "malay": "pengklonan",
+          "definition": "Creating genetically identical copies of an organism or DNA.",
+          "types": [
+            "Reproductive cloning: creating whole organisms (e.g., Dolly the sheep)",
+            "Therapeutic cloning: creating stem cells for treatment"
+          ]
+        }
+      ]
+    },
+    "mechanics": {
+      "name": "Mechanics",
+      "malay_name": "Mekanik",
+      "concepts": [
+        {
+          "term": "Newton's First Law",
+          "malay": "Hukum Newton Pertama",
+          "definition": "An object will remain at rest or move at constant velocity unless acted upon by an external force (Law of Inertia).",
+          "example": "A book on a table stays there until pushed."
+        },
+        {
+          "term": "Newton's Second Law",
+          "malay": "Hukum Newton Kedua",
+          "definition": "The rate of change of momentum is directly proportional to the force applied. F = ma.",
+          "formula": "Force = mass × acceleration"
+        },
+        {
+          "term": "Newton's Third Law",
+          "malay": "Hukum Newton Ketiga",
+          "definition": "For every action, there is an equal and opposite reaction.",
+          "example": "Rocket propulsion: gas pushes down, rocket goes up."
+        },
+        {
+          "term": "momentum",
+          "malay": "momentum",
+          "definition": "The product of mass and velocity. p = mv.",
+          "conservation": "Total momentum before collision = Total momentum after collision (in a closed system)"
+        },
+        {
+          "term": "energy",
+          "malay": "tenaga",
+          "types": {
+            "kinetic": "Energy of motion (½mv²)",
+            "potential": "Stored energy (mgh for gravitational)"
+          },
+          "conservation": "Energy cannot be created or destroyed, only converted."
+        }
+      ]
+    },
+    "electricity": {
+      "name": "Electricity",
+      "malay_name": "Elektrik",
+      "concepts": [
+        {
+          "term": "Ohm's Law",
+          "malay": "Hukum Ohm",
+          "definition": "The current flowing through a conductor is directly proportional to the voltage across it, provided physical conditions remain constant.",
+          "formula": "V = IR (Voltage = Current × Resistance)"
+        },
+        {
+          "term": "series circuit",
+          "malay": "litar siri",
+          "properties": [
+            "Current is the same everywhere",
+            "Voltage is shared between components",
+            "Total resistance R = R₁ + R₂ + ..."
+          ]
+        },
+        {
+          "term": "parallel circuit",
+          "malay": "litar selari",
+          "properties": [
+            "Voltage is the same across branches",
+            "Current splits between branches",
+            "1/R = 1/R₁ + 1/R₂ + ..."
+          ]
+        }
+      ]
+    },
+    "waves": {
+      "name": "Waves",
+      "malay_name": "Gelombang",
+      "concepts": [
+        {
+          "term": "longitudinal wave",
+          "malay": "gelombang membujur",
+          "definition": "Particles vibrate parallel to the direction of wave propagation (e.g., sound waves)."
+        },
+        {
+          "term": "transverse wave",
+          "malay": "gelombang melintang",
+          "definition": "Particles vibrate perpendicular to the direction of wave propagation (e.g., light, water waves)."
+        },
+        {
+          "term": "reflection",
+          "malay": "pantulan",
+          "definition": "Bouncing of waves off a surface. Angle of incidence = Angle of reflection."
+        },
+        {
+          "term": "refraction",
+          "malay": "pembiasan",
+          "definition": "Bending of waves as they pass from one medium to another due to change in speed."
+        }
+      ]
+    },
+    "atomic_structure": {
+      "name": "Atomic Structure",
+      "malay_name": "Struktur Atom",
+      "concepts": [
+        {
+          "term": "atom",
+          "malay": "atom",
+          "definition": "Smallest particle of an element. Consists of protons, neutrons, and electrons.",
+          "subparticles": {
+            "proton": "Positive charge, in nucleus",
+            "neutron": "Neutral, in nucleus",
+            "electron": "Negative charge, in shells/orbitals"
+          }
+        },
+        {
+          "term": "isotope",
+          "malay": "isotop",
+          "definition": "Atoms of the same element with same proton number but different nucleon (mass) number.",
+          "use": "Carbon-14 for dating, Cobalt-60 for cancer treatment"
+        },
+        {
+          "term": "electronic configuration",
+          "malay": "susunan elektron",
+          "definition": "Arrangement of electrons in shells (e.g., Na: 2.8.1). Valence electrons determine chemical properties."
+        }
+      ]
+    },
+    "chemical_bonding": {
+      "name": "Chemical Bonding",
+      "malay_name": "Ikatan Kimia",
+      "concepts": [
+        {
+          "term": "ionic bond",
+          "malay": "ikatan ion",
+          "definition": "Formed by transfer of electrons from metal to non-metal. Strong electrostatic attraction between ions.",
+          "properties": "High melting point, conducts electricity when molten/aqueous"
+        },
+        {
+          "term": "covalent bond",
+          "malay": "ikatan kovalen",
+          "definition": "Formed by sharing of electrons between non-metal atoms.",
+          "properties": "Low melting point (usually), does not conduct electricity"
+        }
+      ]
+    },
+    "acids_bases": {
+      "name": "Acids and Bases",
+      "malay_name": "Asid dan Bes",
+      "concepts": [
+        {
+          "term": "acid",
+          "malay": "asid",
+          "definition": "Substance that produces Hydrogen ions (H+) in water. pH < 7.",
+          "properties": "Sour taste, turns blue litmus red, reacts with metals"
+        },
+        {
+          "term": "base/alkali",
+          "malay": "bes/alkali",
+          "definition": "Base neutralizes acid. Alkali is a soluble base producing Hydroxide ions (OH-). pH > 7.",
+          "properties": "Bitter taste, slippery feel, turns red litmus blue"
+        },
+        {
+          "term": "neutralization",
+          "malay": "peneutralan",
+          "definition": "Reaction between acid + base → salt + water.",
+          "equation": "HCl + NaOH → NaCl + H₂O"
+        }
+      ]
+    }
+  }
+}

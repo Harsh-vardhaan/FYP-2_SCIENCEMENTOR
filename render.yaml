@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: sciencementor-api
+    runtime: python
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: cd backend && gunicorn --bind 0.0.0.0:$PORT app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: FLASK_DEBUG
+        value: false
+      - key: DEFAULT_LLM_PROVIDER
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: GOOGLE_API_KEY
+        sync: false
+    healthCheckPath: /health
+
+  - type: static
+    name: sciencementor-frontend
+    buildCommand: echo "No build needed"
+    staticPublishPath: frontend
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: public, max-age=3600
